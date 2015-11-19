@@ -40,6 +40,19 @@ class ViewController: UIViewController {
 
     
     @IBAction func searchPhotoByPhrase(sender: UIButton) {
+    
+        let methodArguments = [
+        
+            "METHOD_NAME": METHOD_NAME,
+            "API_KEY": API_KEY,
+            "text": "babay asian elephant",
+            "EXTRAS": EXTRAS,
+            "format": DATA_FORMAT,
+            "nojsoncallback": NO_JSON_CALLBACK
+        ]
+        
+        // getImageFromFlickrBySearch(methodArguments)
+    
     }
     
     @IBAction func searchPhotoByLatLon(sender: UIButton) {
